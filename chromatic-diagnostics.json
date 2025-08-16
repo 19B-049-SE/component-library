@@ -1,0 +1,110 @@
+{
+  "activity": {},
+  "announcedBuild": {
+    "id": "68a11881356d7e0f0b4afdd2",
+    "number": 7,
+    "status": "ANNOUNCED",
+    "autoAcceptChanges": false,
+    "app": {
+      "id": "68a0f83b0d95c0a77fc8e6d7",
+      "turboSnapAvailability": "UNAVAILABLE"
+    }
+  },
+  "buildCommand": "npm run build-storybook -- --output-dir=C:\\Users\\HP\\AppData\\Local\\Temp\\chromatic--16912-veqgQ3RPKEM5",
+  "buildLogFile": "C:\\Users\\HP\\Downloads\\component-library\\build-storybook.log",
+  "configuration": {},
+  "environment": {},
+  "exitCode": 105,
+  "exitCodeKey": "NPM_BUILD_STORYBOOK_FAILED",
+  "flags": {
+    "debug": true,
+    "outputDir": [],
+    "storybookBuildDir": [],
+    "externals": [],
+    "onlyStoryFiles": [],
+    "onlyStoryNames": [],
+    "untraced": [],
+    "fileHashing": true,
+    "interactive": true
+  },
+  "git": {
+    "version": "2.50.1.windows.1",
+    "gitUserEmail": "danishkrone75@gmail.com",
+    "uncommittedHash": "fatal: ambiguous argument 'diff': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\ne69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "rootPath": "C:/Users/HP/Downloads/component-library",
+    "commit": "ca1e970d6273244993471bb8418c4d83149bb85e",
+    "committedAt": 1755387576000,
+    "committerEmail": "danishkrone75@gmail.com",
+    "committerName": "Hamood",
+    "branch": "main",
+    "slug": "19b-049-se/component-library",
+    "fromCI": false,
+    "parentCommits": [
+      "ca1e970d6273244993471bb8418c4d83149bb85e"
+    ]
+  },
+  "input": [],
+  "isOnboarding": false,
+  "options": {
+    "fromCI": false,
+    "inAction": false,
+    "dryRun": false,
+    "debug": true,
+    "autoAcceptChanges": false,
+    "exitZeroOnChanges": false,
+    "exitOnceUploaded": false,
+    "diagnosticsFile": "chromatic-diagnostics.json",
+    "fileHashing": true,
+    "interactive": false,
+    "isLocalBuild": false,
+    "originalArgv": [
+      "--project-token=chpt_828bf886114b327",
+      "--debug"
+    ],
+    "logFile": "chromatic.log",
+    "forceRebuild": true,
+    "buildScriptName": "build-storybook",
+    "storybookLogFile": "build-storybook.log",
+    "branchName": ""
+  },
+  "packageJson": {
+    "name": "component-library",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "storybook": "start-storybook -p 6006",
+      "build-storybook": "build-storybook"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "@storybook/react": "^7.6.6",
+      "chromatic": "^13.1.3"
+    }
+  },
+  "packagePath": "C:\\Users\\HP\\Downloads\\component-library\\package.json",
+  "projectMetadata": {
+    "hasRouter": false,
+    "creationDate": {},
+    "numberOfCommitters": 1,
+    "numberOfAppFiles": 2
+  },
+  "runtimeMetadata": {
+    "nodePlatform": "win32",
+    "nodeVersion": "20.9.0",
+    "packageManager": "npm",
+    "packageManagerVersion": "10.1.0"
+  },
+  "sessionId": "30ef548f-66eb-433e-870b-edca64c996b7",
+  "sourceDir": "C:\\Users\\HP\\AppData\\Local\\Temp\\chromatic--16912-veqgQ3RPKEM5",
+  "startedAt": 1755388033432,
+  "storybook": {
+    "version": "7.6.20",
+    "builder": {
+      "name": "unknown",
+      "packageVersion": "0"
+    },
+    "baseDir": "."
+  },
+  "task": "build",
+  "userError": true
+}
