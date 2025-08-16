@@ -6,9 +6,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # ← This fixes missing files
+          fetch-depth: 0
+      
       - run: npm install
+      
       - uses: chromaui/action@v1
         with:
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          autoAcceptChanges: true
+          projectToken: ${{ secrets.chpt_828bf886114b327 }}
+          # Add these critical options:
+          exitOnceUploaded: true
+          skip: ${{ github.event_name == 'pull_request' }}
