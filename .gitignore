@@ -1,0 +1,13 @@
+node_modules/
+.storybook-static/
+build/
+.DS_Store
+*.log
+.vscode/
+.idea/
+*.tmp
+*.swp
+~$*
+.env
+dist/
+coverage/
