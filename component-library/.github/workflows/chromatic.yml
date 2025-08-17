@@ -14,8 +14,8 @@ jobs:
       - name: Publish to Chromatic
         uses: chromaui/action@v1
         env:
-          CHROMATIC_PROJECT_TOKEN: ${{ secrets.chpt_828bf886114b327 }}
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.chpt_9c94a19b04e5778 }}
         with:
-          projectToken: ${{ secrets.chpt_828bf886114b327 }}
+          projectToken: ${{ secrets.chpt_9c94a19b04e5778 }}
           autoAcceptChanges: true
           exitOnceUploaded: true
